@@ -22,6 +22,6 @@ public class OrderDetail {
 
     private Integer productQuantity;
 
-    private String producIcon;
+    private String productIcon;
 
 }
