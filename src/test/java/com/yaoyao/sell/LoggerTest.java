@@ -12,12 +12,9 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 @Slf4j
 public class LoggerTest {
-    private Logger log = LoggerFactory.getLogger(LoggerTest.class);
+
     @Test
     public void test1(){
-        String name = "yaoyao";
-        log.info("name : {}",name);
-        log.debug("debug---");
-        log.error("wossssssss");
+
     }
 }
